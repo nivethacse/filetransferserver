@@ -1,7 +1,7 @@
 
 const {MongoClient} = require("mongodb");
 
-const MONGODB_URL = "mongodb+srv://Nivetha s:Nivi@789@cluster0.k6cdb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const MONGODB_URL = "mongodb+srv://suraj:admin123@cluster0.lyboc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const MONGODB_NAME = "trailData";
 
 const client = new MongoClient(MONGODB_URL)
