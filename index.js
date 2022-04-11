@@ -4,7 +4,7 @@ const db = require('./mongo')
 const app = express()
 const cors = require('cors')
 
-const Port = 4000
+const PORT = process.env.PORT || 5000
 
 const logInService = require("./routes/logInRoutes")
 
@@ -32,8 +32,8 @@ async function connection (){
         }
     })
     
-    app.listen(Port , ()=>{
-        console.log("your server started at 4000")
+    app.listen(PORT , ()=>{
+        console.log("your server started ")
     })
 }
 
